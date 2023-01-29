@@ -1,4 +1,4 @@
-## CLI TODO APP  ##
+## CLI WORDCOUNTER APP  ##
 
 word counter App in cli By Shayan.
 
