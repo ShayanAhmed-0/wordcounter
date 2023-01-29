@@ -1,0 +1,34 @@
+{
+  "name": "shawordcounter",
+  "version": "1.0.0",
+  "description": "",
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
+  "type": "module",
+  "scripts": {
+    "build": "tsc",
+    "prepare": "npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ShayanAhmed-0/wordcounter.git"
+  },
+  "keywords": [],
+  "author": "Shayan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ShayanAhmed-0/wordcounter/issues"
+  },
+  "homepage": "https://github.com/ShayanAhmed-0/wordcounter#readme",
+  "files": [
+    "lib/**/*"
+  ],
+  "bin": "./lib/index.js",
+  "devDependencies": {
+    "@types/inquirer": "^9.0.3",
+    "typescript": "^4.9.4"
+  },
+  "dependencies": {
+    "inquirer": "^9.1.4"
+  }
+}
